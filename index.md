@@ -29,7 +29,7 @@ description: Fast Parallax Occlusion Mapping for Unreal Engine 5
             <a href="/Getting started/">Documentation</a>
             <a href="/Getting started/Settings">Settings</a>
             <a href="https://discord.gg/sX48CssHWM">Discord</a>
-            <a href="https://www.fab.com/listings/f56aea7a-337f-4b6a-8333-9e4739574370">Get FPOM</a>
+            <a href="https://www.fab.com/listings/f56aea7a-337f-4b6a-8333-9e4739574370">Fab</a>
         </div>
     </div>
 </nav>
@@ -41,11 +41,11 @@ description: Fast Parallax Occlusion Mapping for Unreal Engine 5
     </div>
     <div class="side-by-side side-reverse">
         <video src="./MeshTerrain.mp4" autoplay muted loop />
-        <p>Works with Landscape and Mesh Terrain</p>
+        <p>Works great with Landscape and Mesh Terrain</p>
     </div>
     <div class="side-by-side">
         <video src="./Decals.mp4" autoplay muted loop />
-        <p>Works great with Decals, adding depth to the scene.</p>
+        <p>Decals are also supported, adding depth to the scene.</p>
     </div>
 </section>
 
