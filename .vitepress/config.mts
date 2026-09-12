@@ -71,14 +71,16 @@ export default defineConfig(
   withSidebar(
     {
       title: "FPOM",
-      description: "FPOM Documentation - Fast parallax occlusion mapping for Unreal Engine 5",
+      description:
+        "FPOM Documentation - Fast parallax occlusion mapping for Unreal Engine 5",
       head: [
         ["link", { rel: "icon", href: "/favicon.ico" }],
         [
           "meta",
           {
             property: "og:title",
-            content: "FPOM - Fast parallax occlusion mapping for Unreal Engine 5",
+            content:
+              "FPOM - Fast parallax occlusion mapping for Unreal Engine 5",
           },
         ],
         [
@@ -93,7 +95,7 @@ export default defineConfig(
           "meta",
           {
             property: "og:image",
-            content: "https://fpom.lervik.com/Logo.jpg",
+            content: "https://fpom.lervik.com/thumb.jpg",
           },
         ],
         [
@@ -107,7 +109,8 @@ export default defineConfig(
           "meta",
           {
             name: "twitter:title",
-            content: "FPOM - Fast parallax occlusion mapping for Unreal Engine 5",
+            content:
+              "FPOM - Fast parallax occlusion mapping for Unreal Engine 5",
           },
         ],
         [
