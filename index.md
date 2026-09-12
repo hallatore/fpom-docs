@@ -37,7 +37,7 @@ description: Fast Parallax Occlusion Mapping for Unreal Engine 5
 <section class="section section-content">
     <div class="side-by-side">
         <video src="./TriPlanar.mp4" autoplay muted loop />
-        <p>It's direction aware, meaning it works even if the UVs are scaled, flipped or rotated</p>
+        <p>FPOM is direction aware, meaning it works even if the UVs are scaled, flipped or rotated</p>
     </div>
     <div class="side-by-side side-reverse">
         <video src="./MeshTerrain.mp4" autoplay muted loop />
