@@ -27,7 +27,7 @@ description: Fast Parallax Occlusion Mapping for Unreal Engine 5
         <span class="logo">FPOM</span>
         <div class="nav-links">
             <a href="/Getting started/">Documentation</a>
-            <a href="/Getting started/Settings">Settings</a>
+            <a class="hide-mobile" href="/Getting started/Settings">Settings</a>
             <a href="https://discord.gg/sX48CssHWM">Discord</a>
             <a href="https://www.fab.com/listings/f56aea7a-337f-4b6a-8333-9e4739574370">Fab</a>
         </div>
