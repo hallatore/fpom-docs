@@ -6,7 +6,7 @@ description: Every FPOM input and output explained
 
 
 <p>
-<img style="border-radius: 11px;" src="../material_function.png" alt="FPOM Material Function" />
+<img style="border-radius: 11px;" src="/material_function.png" alt="FPOM Material Function" />
 </p>
 
 ## Inputs
@@ -80,7 +80,7 @@ A static bool signaling if the height texture lookup should wrap or clamp. This 
 > It's important to always hook up UV, DDX and DDY to ensure correct MIP sampling and Anisotropic Filtering
 
 <p>
-<img style="border-radius: 0 11px 11px 0;" src="../outputs.png" alt="FPOM Material Function outputs" />
+<img style="border-radius: 0 11px 11px 0;" src="/outputs.png" alt="FPOM Material Function outputs" />
 </p>
 
 ### UV
