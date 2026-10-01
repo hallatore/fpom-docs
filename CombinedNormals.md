@@ -4,7 +4,7 @@ order: 3
 description: Combining the normal output with an existing normal texture.
 ---
 
-[![Material Graph](combined_normals.jpg)](combined_normals.jpg)
+[![Material Graph](public/combined_normals.jpg)](/combined_normals.jpg)
 
 
 
