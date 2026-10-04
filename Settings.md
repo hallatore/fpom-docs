@@ -6,7 +6,7 @@ description: Every FPOM input and output explained
 
 
 <p>
-<img style="border-radius: 11px;" src="/material_function.png" alt="FPOM Material Function" />
+<img style="border-radius: 11px;" src="/material_function.jpg" alt="FPOM Material Function" />
 </p>
 
 ## Inputs
@@ -67,6 +67,13 @@ A static bool signaling if the function is used on a decal.
 
 A static bool signaling if the height texture lookup should wrap or clamp. This value is always `false` if `IsDecal` is true.
 
+### Vertex Normal Fast Path
+
+- Type: `Static Bool`
+- Default: `false`
+
+FPOM uses scale corrected vertex normals. This switch does that on the vertex shader. This is off by default since it's not compatible with landscape materials.
+
 ### Advanced
 
 #### AxisU
@@ -114,3 +121,24 @@ Used to offset the world position when using FPOM on a RVT landscape.
 - Returns: `0` (bottom) to `1` (top)
 
 Used to drive effects like fake AO in holes, water, etc.
+
+#### Shadow
+
+- Type: `float`
+- Returns: `0` (In shadow) to `1` (Not in shadow)
+
+Used to drive fake self shadow effect. Can be used to multiply with base color for example.
+
+Note: This value is calculated from the sunlight vector. It does not know if anything else is already occluding it, or any other local lights.
+
+#### Normal
+
+- Type: `World Space Normal`
+- Returns: A normal derived from the height texture.
+
+Used alone as a normal map, or together with a normal map texture doing [Combined Normals](CombinedNormals.md).
+
+#### VertexNormalWS
+
+- Type: `VertexNormalWS`
+- Returns: Return the scale corrected VertexNormalWS. Used when doing [Combined Normals](CombinedNormals.md).
